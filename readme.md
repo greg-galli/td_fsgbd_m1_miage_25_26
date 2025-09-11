@@ -1,5 +1,5 @@
 
-# Mini-SGBD en Java – Etape 1 : Stockage des données
+# Mini-SGBD – Etape 1 : Stockage des données
 
 ##  Objectif
 Cette première étape consiste à comprendre **comment un SGBD stocke ses données sur disque**.  
