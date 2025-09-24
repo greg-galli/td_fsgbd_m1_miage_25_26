@@ -20,8 +20,8 @@ Si nous stockons 105 étudiants dans un fichier `etudiants.db` :
 
 - **Page 0** : Étudiants 1 → 40  
 - **Page 1** : Étudiants 41 → 80  
-- **Page 2** : Étudiants 81 → 100  
-- **Page 3** : Étudiants 101 → 105  
+- **Page 2** : Étudiants 81 → 120
+- **Page 3** : Étudiants 121 → 160
 
 ##  Fonctionnalités à implémenter
 
