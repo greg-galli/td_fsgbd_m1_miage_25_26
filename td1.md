@@ -16,7 +16,7 @@ Plutôt que de lire/écrire ligne par ligne comme dans un fichier texte, un vrai
   - 1 page = `PAGE_SIZE / RECORD_SIZE` enregistrements.  
   - Exemple : `4096 / 100 = 40` enregistrements par page.  
 
-Si nous stockons 105 étudiants dans un fichier `etudiants.db` :
+Si nous stockons 160 étudiants dans un fichier `etudiants.db` :
 
 - **Page 0** : Étudiants 1 → 40  
 - **Page 1** : Étudiants 41 → 80  
