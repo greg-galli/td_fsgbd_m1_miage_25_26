@@ -1,4 +1,4 @@
-# TD 7 ORACLE – Gestion des transactions et verrous sur Oracle
+# TD 4 ORACLE – Gestion des transactions et verrous sur Oracle
 
 ## Exercice 1 Mettre en œuvre les différentes anomalies
 (Utiliser les tables **PILOTE**, **AVION** et **VOL** contenues dans le script `airbase.sql`, voir le dossier du cours)
@@ -94,3 +94,4 @@ WHERE
 
 ## Rendu
 Effectuez les opérations demandées et commentez les opérations / résultats obtenus pour chaque étape, tracez tout dans un fichier ".sql" ou au format markdown que vous rendrez sur la boite de dépôt précisée sur Moodle.
+
