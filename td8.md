@@ -85,8 +85,7 @@ DECLARE
     v_elapsed NUMBER; -- temps en millisecondes
     v_dummy VARCHAR2(150);
     
-    TYPE t_times IS TABLE OF NUMBER;
-    v_times t_times := t_times();
+    v_times SYS.ODCINUMBERLIST := SYS.ODCINUMBERLIST();
     
     v_min NUMBER := 999999;
     v_max NUMBER := 0;
