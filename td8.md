@@ -173,7 +173,7 @@ CREATE INDEX IDX_CLIENT_EMAIL ON CLIENTS_TEST(EMAIL);
 
 Pour observer la courbe de complexité (O(N) vs O(log N)), vous devez répéter l'opération en augmentant le volume de données.
 
-1.  Supprimez l'index : `DROP INDEX IDX_CLIENT_EMAIL;`
+1.  Supprimez LA TABLE et RECREEZ LA §§
     
 2.  Ajoutez des données pour atteindre **100 000** enregistrements (utilisez le script de la Partie 2).
     
@@ -190,7 +190,7 @@ Pour observer la courbe de complexité (O(N) vs O(log N)), vous devez répéter 
 
 ## Partie 6 : Analyse et Restitution
 
-**A. Visualisation** Tracez deux courbes sur un graphique (Axe X = Nombre d'enregistrements, Axe Y = Temps moyen de réponse en ms) :
+**A. Visualisation** Tracez deux courbes sur un graphique (Axe X = Nombre d'enregistrements, Axe Y = Temps median de réponse en ms) :
 
 1.  Courbe "Full Scan" (Sans index).
     
@@ -214,3 +214,4 @@ Dans le fil du TD, vous trouverez des questions ici et là, répondez y à la fi
 **D. Format du rendu** 
 
 Vous rendrez un fichier PDF qui contiendra toutes vos conclusions et réponses dans la boite de dépôt accessible sur Moodle.
+
